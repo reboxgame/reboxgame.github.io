@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rebox Games</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --accent: #6366f1;
+      --bg: #f8fafc;
+      --text: #1f2937;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    header {
+      background: linear-gradient(135deg, var(--primary), var(--accent));
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 60px auto;
+      padding: 0 24px;
+      animation: fadeInUp 1s ease-in-out;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+      margin-top: 40px;
+      color: var(--primary);
+    }
+
+    p, li {
+      font-size: 1.1rem;
+      margin-bottom: 16px;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    a {
+      color: var(--primary);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 20px;
+      background-color: #e2e8f0;
+      font-size: 0.95rem;
+      color: #4b5563;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Rebox Games</h1>
+    <p>Play Anywhere. Anytime. Offline.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Rebox Games</h2>
+      <p>
+        Rebox Games is your all-in-one offline game hub. Enjoy a growing collection of casual mini-games designed to entertain and relax — anytime, anywhere. No internet required, and absolutely no ads.
+      </p>
+
+      <p>
+        Whether you're commuting, traveling, or just want to unplug, Rebox Games is here to offer pure offline fun. Each game is carefully crafted for simple, satisfying play. New games are added regularly!
+      </p>
+    </section>
+
+    <section>
+      <h2>Features</h2>
+      <ul>
+        <li>Fully offline – no Wi-Fi or data needed</li>
+        <li>No ads or interruptions</li>
+        <li>Fun and relaxing mini-games</li>
+        <li>Regular updates with new content</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact Us</h2>
+      <p>
+        For support or inquiries, please contact us at:
+        <br>
+        <a href="mailto:reboxgame@hotmail.com">reboxgame@hotmail.com</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Rebox Game. All rights reserved.
+  </footer>
+</body>
+</html>
